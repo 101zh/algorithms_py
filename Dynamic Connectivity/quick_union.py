@@ -1,4 +1,4 @@
-class UF:
+class QU:
     def __init__(self, n):
         self.id=n*[None]
         for i in range(n):

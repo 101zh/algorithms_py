@@ -22,3 +22,4 @@ class QUI:
         else:
             self.id[rootQ]=self.id[rootP]
             self.sz[rootP]+=self.sz[rootQ]
+

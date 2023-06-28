@@ -5,10 +5,12 @@ class QUI:
         for i in range(n):
             self.id[i]=i
 
-    def root(self, x):
-        while self.id[x]!=x:
-            x=self.id[x]
-        return x
+    def root(self, i):
+        
+        while self.id[i]!=i:
+            id[i]=id[id[i]]
+            i=self.id[i]
+        return i
 
     def connected(self, p, q):
         return self.root(p)==self.root(q)

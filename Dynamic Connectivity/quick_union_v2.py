@@ -19,8 +19,6 @@ class QUI:
         if self.sz[rootP]<self.sz[rootQ]:
             self.id[rootP]=self.id[rootQ]
             self.sz[rootQ]+=self.sz[rootP]
-            self.sz[rootP]=1
         else:
             self.id[rootQ]=self.id[rootP]
             self.sz[rootP]+=self.sz[rootQ]
-            self.sz[rootQ]=1
